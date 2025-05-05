@@ -1,12 +1,37 @@
 body{
-    background-color: lightblue;
+    background-color: black;
+    color: #ffffff;
 }
 
-form{
-    background-color: white;
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-input{
-    padding: 5px;
-    margin: 5px;
+footer{
+    position: fixed;
+    bottom: 20px;
+}
+
+p{
+    transform: translateY(150%);
+    font-size: 20px;
+}
+
+img{
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
 }
